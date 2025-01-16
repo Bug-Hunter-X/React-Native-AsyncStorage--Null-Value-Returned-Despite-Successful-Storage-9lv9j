@@ -1,0 +1,1 @@
+This React Native bug occurs when using AsyncStorage to store and retrieve data.  The issue arises when attempting to retrieve data before it has been fully stored, resulting in a null value being returned, even though the data was successfully saved. This usually happens when retrieving data within a function called soon after the data is saved.
